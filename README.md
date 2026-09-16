@@ -23,7 +23,11 @@ Four MIT, client-side apps — no account, no backend. They form a small kit: **
 
 ## Support the lab
 
-Voluntary [tips](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801) keep these open tools and demos going.
+[![Support the lab — tips keep the open tools and demos going](docs/support-the-lab-banner.png)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
+
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Refuse Card, and Agent Receipt, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+
+**[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
 
 ## What SMF Works is
 
