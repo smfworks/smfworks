@@ -4,6 +4,7 @@
 [![smfworks.com](https://img.shields.io/badge/Brand-smfworks.com-2F6FED)](https://smfworks.com)
 [![Clearinghouse Log](https://img.shields.io/badge/Writing-Clearinghouse%20Log-C45C26)](https://www.smfclearinghouse.com/blog/)
 [![smfwisdomforge.com](https://img.shields.io/badge/Education-smfwisdomforge.com-2E8B57)](https://smfwisdomforge.com)
+[![Support](https://img.shields.io/badge/Support-tip%20jar-D97706)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
 
 A map of what [SMF Works](https://github.com/smfworks) publishes on GitHub — what to use, what is experimental, what is only a fork mirror, and what is archived.
 
@@ -19,6 +20,10 @@ Four MIT, client-side apps — no account, no backend. They form a small kit: **
 | **Skill Lint** | Green / yellow / red `SKILL.md` report card with fix hints | **[skill-lint.vercel.app](https://skill-lint.vercel.app)** | [skill-lint](https://github.com/smfworks/skill-lint) |
 | **Refuse Card** | `GO` / `HOLD` / `NO` stamp for a proposed agent action | **[refuse-card.vercel.app](https://refuse-card.vercel.app)** | [refuse-card](https://github.com/smfworks/refuse-card) |
 | **Agent Receipt** | Turn any agent session into a dark shareable receipt card | **[agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app)** | [agent-receipt](https://github.com/smfworks/agent-receipt) |
+
+## Support the lab
+
+Voluntary [tips](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801) keep these open tools and demos going.
 
 ## What SMF Works is
 
