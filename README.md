@@ -3,6 +3,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-smfworks-181717?logo=github)](https://github.com/smfworks)
 [![smfworks.com](https://img.shields.io/badge/Brand-smfworks.com-2F6FED)](https://smfworks.com)
 [![Clearinghouse Log](https://img.shields.io/badge/Writing-Clearinghouse%20Log-C45C26)](https://www.smfclearinghouse.com/blog/)
+[![smfwisdomforge.com](https://img.shields.io/badge/Education-smfwisdomforge.com-2E8B57)](https://smfwisdomforge.com)
 
 A map of what [SMF Works](https://github.com/smfworks) publishes on GitHub — what to use, what is experimental, what is only a fork mirror, and what is archived.
 
