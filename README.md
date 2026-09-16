@@ -6,7 +6,18 @@
 
 A map of what [SMF Works](https://github.com/smfworks) publishes on GitHub — what to use, what is experimental, what is only a fork mirror, and what is archived.
 
-Surveyed **2026-09-13** against the public `smfworks` account (**72** public repositories). This file is an index, not a product pitch.
+Surveyed **2026-09-16** against the public `smfworks` account (**76** public repositories). This file is an index, not a product pitch.
+
+## Try these (viral apps)
+
+Four MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → stamp a proposed action → print a receipt of what ran.**
+
+| App | What it does | Live demo | Repo |
+|---|---|---|---|
+| **Paste → Skill** | Paste an SOP or notes → Hermes/OpenClaw `SKILL.md` | **[paste-to-skill.vercel.app](https://paste-to-skill.vercel.app)** | [paste-to-skill](https://github.com/smfworks/paste-to-skill) |
+| **Skill Lint** | Green / yellow / red `SKILL.md` report card with fix hints | **[skill-lint.vercel.app](https://skill-lint.vercel.app)** | [skill-lint](https://github.com/smfworks/skill-lint) |
+| **Refuse Card** | `GO` / `HOLD` / `NO` stamp for a proposed agent action | **[refuse-card.vercel.app](https://refuse-card.vercel.app)** | [refuse-card](https://github.com/smfworks/refuse-card) |
+| **Agent Receipt** | Turn any agent session into a dark shareable receipt card | **[agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app)** | [agent-receipt](https://github.com/smfworks/agent-receipt) |
 
 ## What SMF Works is
 
@@ -17,13 +28,26 @@ SMF Works is a small human–AI lab (Pittsboro, NC) that publishes tools, write-
 | If you care about… | Start with | Then |
 |---|---|---|
 | **Omarchy + Hermes on a machine** | [hermes-omarchy](https://github.com/smfworks/hermes-omarchy) — boot integration (Ollama user unit, Hermes desktop autostart, skills/plugin wiring) | [smf-hermes](https://github.com/smfworks/smf-hermes) — optional Omarchy bar widget (`smf.hermes`). Upstream desktop: [omacom/omarchy](https://github.com/omacom/omarchy) |
-| **Hermes as a team** | [hermes-ai-team](https://github.com/smfworks/hermes-ai-team) — highest-interest SMF repo; agent-consumable guide from one install to named colleagues | Companion essay: [Building an AI team…](https://www.smfclearinghouse.com/blog/building-an-ai-team-from-installation-to-colleagues). Upstream agent: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent). Lofoten plugins: catalog TBD (see [experimental](#lofoten-sprint-catalog-tbd)) |
+| **Hermes as a team** | [hermes-ai-team](https://github.com/smfworks/hermes-ai-team) — highest-interest SMF repo; agent-consumable guide from one install to named colleagues | Companion essay: [Building an AI team…](https://www.smfclearinghouse.com/blog/building-an-ai-team-from-installation-to-colleagues). Upstream agent: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent). Lofoten plugins: [hermes-lofoten-challenge](https://github.com/smfworks/hermes-lofoten-challenge) catalog (see [experimental](#lofoten-sprint)) |
 | **OpenClaw** | [smfworks-skills](https://github.com/smfworks/smfworks-skills) — small-business OpenClaw skills | [smf-openclaw-vision](https://github.com/smfworks/smf-openclaw-vision) (iPhone/RTSP eyes), [mnemosyne-openclaw](https://github.com/smfworks/mnemosyne-openclaw) (offline SQLite memory). Upstream: [openclaw/openclaw](https://github.com/openclaw/openclaw) |
 | **Evals / trajectories** | [smf-bench](https://github.com/smfworks/smf-bench) — capability-gated model suite | [trajectory-arena](https://github.com/smfworks/trajectory-arena) (import/replay agentic coding traces; does not run agents). Related notes: [NemoKnowledgebase](https://github.com/smfworks/NemoKnowledgebase) |
 
 ## Supported
 
-SMF-authored repos that are the intended public surface for a given job. “Supported” here means *this is the one to clone first* — not a support contract.
+SMF-authored repos that are the intended public surface for a given job. “Supported” here means *this is the one to clone first* — not a support contract. For the browser kit, prefer the [live demos](#try-these-viral-apps).
+
+### Browser kit
+
+MIT, client-side. Try in the browser; clone only if you want the source.
+
+| Repo | What it is |
+|---|---|
+| [paste-to-skill](https://github.com/smfworks/paste-to-skill) | Paste SOP/notes → Hermes/OpenClaw `SKILL.md`. Demo: [paste-to-skill.vercel.app](https://paste-to-skill.vercel.app) |
+| [skill-lint](https://github.com/smfworks/skill-lint) | Green/yellow/red `SKILL.md` report with fix hints. Demo: [skill-lint.vercel.app](https://skill-lint.vercel.app) |
+| [refuse-card](https://github.com/smfworks/refuse-card) | GO / HOLD / NO stamp for a proposed agent action. Demo: [refuse-card.vercel.app](https://refuse-card.vercel.app) |
+| [agent-receipt](https://github.com/smfworks/agent-receipt) | Dark shareable receipt card of an agent session. Demo: [agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app) |
+
+### Clone first
 
 | Repo | What it is |
 |---|---|
@@ -57,13 +81,13 @@ Expect rough edges, overlapping ideas, and READMEs that may be ahead of the code
 | [smf-hermes-chat-hub](https://github.com/smfworks/smf-hermes-chat-hub) | Browser chat hub for Hermes profiles (Tailscale-friendly). |
 | [skillopt](https://github.com/smfworks/skillopt) | Skill-text optimizer (family also includes [skillopt-content](https://github.com/smfworks/skillopt-content), [smf-SkillTrain](https://github.com/smfworks/smf-SkillTrain)). |
 
-### Lofoten sprint (catalog TBD)
+### Lofoten sprint
 
-Hermes plugins and skills from the 2026-08 Lofoten challenge. **There is no curated catalog yet** — treat the set as experimental and read each README before installing.
+Hermes plugins and skills from the 2026-08 Lofoten challenge. The curated map is [hermes-lofoten-challenge](https://github.com/smfworks/hermes-lofoten-challenge). Treat siblings as experimental and read each README before installing.
 
 | Repo | Stated role |
 |---|---|
-| [hermes-lofoten-challenge](https://github.com/smfworks/hermes-lofoten-challenge) | Sprint bundle: telemetry, skill-gap analysis, self-diagnostics |
+| [hermes-lofoten-challenge](https://github.com/smfworks/hermes-lofoten-challenge) | Public catalog of the Lofoten-sprint skills and plugins |
 | [lofoten-challenge](https://github.com/smfworks/lofoten-challenge) | Fleet coordination / session analytics / discovery |
 | [hermes-plugin-harbor](https://github.com/smfworks/hermes-plugin-harbor) | Solo / pair / swarm collaboration router |
 | [hermes-plugin-hybrid-routing](https://github.com/smfworks/hermes-plugin-hybrid-routing) | Sensitivity / role / difficulty model routing |
@@ -80,7 +104,7 @@ Related UI **mocks** (in-process fake data; they do not attach to a live Hermes)
 
 | Repo | Notes |
 |---|---|
-| [flybrain-visual-demos](https://github.com/smfworks/flybrain-visual-demos) | Visual *Drosophila* connectome demos. **Private preview** (repo says not published). Live host as of this survey: [flybrain.aionasmfworks.com](https://flybrain.aionasmfworks.com) (`noindex`). Connectome data is HHMI Janelia FlyEM / collaborators — this repo is demo code only. |
+| [flybrain-visual-demos](https://github.com/smfworks/flybrain-visual-demos) | Visual *Drosophila* connectome demos. Public repo; live host: [flybrain.aionasmfworks.com](https://flybrain.aionasmfworks.com). Connectome data is HHMI Janelia FlyEM / collaborators — this repo is demo code only. |
 
 ### Also published (long tail)
 
