@@ -12,16 +12,15 @@ Surveyed **2026-09-16** against the public `smfworks` account (**77** public rep
 
 ## SMF App Launcher
 
-A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin that lists SMF Works viral utility apps **cloned locally on your machine** and renders them inside the Hermes workspace — no browser tab, no GitHub API, no marketing sites. Only what's on your disk.
+A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin. It lists **viral kit apps cloned on this machine** and opens them **locally** in the workspace. Not a Vercel gallery. Not company websites.
 
 | | |
 |---|---|
-| **What it does** | Sidebar nav ("SMF Apps" 🚀), grid of installed apps with search, one-click sandboxed iframe rendering |
-| **How it discovers apps** | Python backend scans `~/projects/` for cloned SMF viral app repos. Only the 9 utility apps are recognized — websites and infra repos are excluded |
-| **Repo** | [**smf-app-launcher**](https://github.com/smfworks/smf-app-launcher) |
-| **Install** | `git clone https://github.com/smfworks/smf-app-launcher.git ~/.hermes/plugins/smf-app-launcher` then `hermes plugins enable smf-app-launcher` |
-| **Activate** | Settings → Plugins → SMF Apps on, then ⌘K → Reload desktop plugins |
-| **License** | MIT |
+| **What it is** | Sidebar **SMF Apps** plus ⌘K → Open SMF App Launcher. Grid of clones that actually exist on disk. |
+| **What it does** | Finds Vite client tools with a `github.com/smfworks/<name>` remote that are in the viral kit below. **Start local** runs that clone’s Vite server on `127.0.0.1` and iframes it. |
+| **What it is not** | Live Vercel demos, Next.js `*-site` repos, WisdomForge, Clearinghouse, smfworks.com. |
+| **Repo** | [smfworks/smf-app-launcher](https://github.com/smfworks/smf-app-launcher) · MIT |
+| **Install** | `git clone https://github.com/smfworks/smf-app-launcher.git ~/.hermes/plugins/smf-app-launcher` then enable the plugin and ⌘K → Reload desktop plugins. |
 
 ## Try these (viral apps)
 
