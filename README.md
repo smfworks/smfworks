@@ -12,12 +12,13 @@ Surveyed **2026-09-16** against the public `smfworks` account (**76** public rep
 
 ## Try these (viral apps)
 
-Four MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → stamp a proposed action → print a receipt of what ran.**
+Five MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → present it as a card → stamp a proposed action → print a receipt.**
 
 | App | What it does | Live demo | Repo |
 |---|---|---|---|
 | **Paste → Skill** | Paste an SOP or notes → Hermes/OpenClaw `SKILL.md` | **[paste-to-skill.vercel.app](https://paste-to-skill.vercel.app)** | [paste-to-skill](https://github.com/smfworks/paste-to-skill) |
 | **Skill Lint** | Green / yellow / red `SKILL.md` report card with fix hints | **[skill-lint.vercel.app](https://skill-lint.vercel.app)** | [skill-lint](https://github.com/smfworks/skill-lint) |
+| **Skill Card** | Paste a `SKILL.md` → pretty shareable one-pager PNG | **[skill-card.vercel.app](https://skill-card.vercel.app)** | [skill-card](https://github.com/smfworks/skill-card) |
 | **Refuse Card** | `GO` / `HOLD` / `NO` stamp for a proposed agent action | **[refuse-card.vercel.app](https://refuse-card.vercel.app)** | [refuse-card](https://github.com/smfworks/refuse-card) |
 | **Agent Receipt** | Turn any agent session into a dark shareable receipt card | **[agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app)** | [agent-receipt](https://github.com/smfworks/agent-receipt) |
 
@@ -25,7 +26,7 @@ Four MIT, client-side apps — no account, no backend. They form a small kit: **
 
 [![Support the lab — tips keep the open tools and demos going](docs/support-the-lab-banner.png)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
 
-If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Refuse Card, and Agent Receipt, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Skill Card, Refuse Card, and Agent Receipt, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
 
 **[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
 
@@ -54,6 +55,7 @@ MIT, client-side. Try in the browser; clone only if you want the source.
 |---|---|
 | [paste-to-skill](https://github.com/smfworks/paste-to-skill) | Paste SOP/notes → Hermes/OpenClaw `SKILL.md`. Demo: [paste-to-skill.vercel.app](https://paste-to-skill.vercel.app) |
 | [skill-lint](https://github.com/smfworks/skill-lint) | Green/yellow/red `SKILL.md` report with fix hints. Demo: [skill-lint.vercel.app](https://skill-lint.vercel.app) |
+| [skill-card](https://github.com/smfworks/skill-card) | Paste `SKILL.md` → pretty shareable one-pager PNG. Demo: [skill-card.vercel.app](https://skill-card.vercel.app) |
 | [refuse-card](https://github.com/smfworks/refuse-card) | GO / HOLD / NO stamp for a proposed agent action. Demo: [refuse-card.vercel.app](https://refuse-card.vercel.app) |
 | [agent-receipt](https://github.com/smfworks/agent-receipt) | Dark shareable receipt card of an agent session. Demo: [agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app) |
 
