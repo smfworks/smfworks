@@ -8,7 +8,19 @@
 
 A map of what [SMF Works](https://github.com/smfworks) publishes on GitHub — what to use, what is experimental, what is only a fork mirror, and what is archived.
 
-Surveyed **2026-09-16** against the public `smfworks` account (**76** public repositories). This file is an index, not a product pitch.
+Surveyed **2026-09-16** against the public `smfworks` account (**77** public repositories). This file is an index, not a product pitch.
+
+## SMF App Launcher
+
+A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin that scans your local filesystem for installed SMF web apps and renders them inside the Hermes workspace — no browser tab, no GitHub API, only what's on your machine.
+
+| | |
+|---|---|
+| **What it does** | Sidebar nav ("SMF Apps"), grid of installed apps, one-click local iframe rendering |
+| **How it discovers apps** | Scans `~/` and `~/workspace/` for cloned SMF app repos with an `index.html` |
+| **Repo** | [**smf-app-launcher**](https://github.com/smfworks/smf-app-launcher) |
+| **Install** | `cp plugin/plugin.js ~/.hermes/desktop-plugins/smf-app-launcher/plugin.js` then ⌘K → Reload desktop plugins |
+| **License** | MIT |
 
 ## Try these (viral apps)
 
