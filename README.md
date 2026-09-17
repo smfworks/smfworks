@@ -12,14 +12,14 @@ Surveyed **2026-09-16** against the public `smfworks` account (**77** public rep
 
 ## SMF App Launcher
 
-A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin: it finds the **viral kit tools you already cloned** and opens them on localhost inside the workspace. It is not the live Vercel demos and it ignores company `*-site` repos.
+A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin that scans your local filesystem for installed SMF web apps and renders them inside the Hermes workspace — no browser tab, no GitHub API, only what's on your machine.
 
 | | |
 |---|---|
-| **What it does** | Sidebar **SMF Apps** → grid of on-disk clones → **Start local** runs Vite and iframes `127.0.0.1` |
-| **What it is** | Companion to the eight MIT client-side tools below. Clone a kit repo, rescan, open it without a browser tab. |
-| **Repo** | [smf-app-launcher](https://github.com/smfworks/smf-app-launcher) |
-| **Install** | Copy the plugin tree into `~/.hermes/plugins/smf-app-launcher`, copy `desktop/plugin.js` into `~/.hermes/desktop-plugins/smf-app-launcher/`, enable `smf-app-launcher` in `config.yaml`, then ⌘K → Reload desktop plugins. Details in the repo README. |
+| **What it does** | Sidebar nav ("SMF Apps"), grid of installed apps, one-click local iframe rendering |
+| **How it discovers apps** | Scans `~/` and `~/workspace/` for cloned SMF app repos with an `index.html` |
+| **Repo** | [**smf-app-launcher**](https://github.com/smfworks/smf-app-launcher) |
+| **Install** | `cp plugin/plugin.js ~/.hermes/desktop-plugins/smf-app-launcher/plugin.js` then ⌘K → Reload desktop plugins |
 | **License** | MIT |
 
 ## Try these (viral apps)
