@@ -18,7 +18,7 @@ Five MIT, client-side apps — no account, no backend. They form a small kit: **
 |---|---|---|---|
 | **Paste → Skill** | Paste an SOP or notes → Hermes/OpenClaw `SKILL.md` | **[paste-to-skill.vercel.app](https://paste-to-skill.vercel.app)** | [paste-to-skill](https://github.com/smfworks/paste-to-skill) |
 | **Skill Lint** | Green / yellow / red `SKILL.md` report card with fix hints | **[skill-lint.vercel.app](https://skill-lint.vercel.app)** | [skill-lint](https://github.com/smfworks/skill-lint) |
-| **Skill Card** | Paste a `SKILL.md` → pretty shareable one-pager PNG | **[skill-card.vercel.app](https://skill-card.vercel.app)** | [skill-card](https://github.com/smfworks/skill-card) |
+| **Skill Card** | Paste a `SKILL.md` → pretty shareable one-pager PNG | **[skill-card-theta.vercel.app](https://skill-card-theta.vercel.app)** | [skill-card](https://github.com/smfworks/skill-card) |
 | **Refuse Card** | `GO` / `HOLD` / `NO` stamp for a proposed agent action | **[refuse-card.vercel.app](https://refuse-card.vercel.app)** | [refuse-card](https://github.com/smfworks/refuse-card) |
 | **Agent Receipt** | Turn any agent session into a dark shareable receipt card | **[agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app)** | [agent-receipt](https://github.com/smfworks/agent-receipt) |
 
@@ -55,7 +55,7 @@ MIT, client-side. Try in the browser; clone only if you want the source.
 |---|---|
 | [paste-to-skill](https://github.com/smfworks/paste-to-skill) | Paste SOP/notes → Hermes/OpenClaw `SKILL.md`. Demo: [paste-to-skill.vercel.app](https://paste-to-skill.vercel.app) |
 | [skill-lint](https://github.com/smfworks/skill-lint) | Green/yellow/red `SKILL.md` report with fix hints. Demo: [skill-lint.vercel.app](https://skill-lint.vercel.app) |
-| [skill-card](https://github.com/smfworks/skill-card) | Paste `SKILL.md` → pretty shareable one-pager PNG. Demo: [skill-card.vercel.app](https://skill-card.vercel.app) |
+| [skill-card](https://github.com/smfworks/skill-card) | Paste `SKILL.md` → pretty shareable one-pager PNG. Demo: [skill-card-theta.vercel.app](https://skill-card-theta.vercel.app) |
 | [refuse-card](https://github.com/smfworks/refuse-card) | GO / HOLD / NO stamp for a proposed agent action. Demo: [refuse-card.vercel.app](https://refuse-card.vercel.app) |
 | [agent-receipt](https://github.com/smfworks/agent-receipt) | Dark shareable receipt card of an agent session. Demo: [agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app) |
 
