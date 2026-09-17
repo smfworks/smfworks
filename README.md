@@ -24,7 +24,7 @@ A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin. It list
 
 ## Try these (viral apps)
 
-Eight MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → present it as a card → diff the rewrite → stamp a proposed action → declare allowed tools → print a receipt → scrub secrets.**
+Ten MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → present it as a card → diff the rewrite → write a contract → stamp a proposed action → declare allowed tools → print a receipt → scrub secrets → budget the context.**
 
 | App | What it does | Live demo | Repo |
 |---|---|---|---|
@@ -32,16 +32,18 @@ Eight MIT, client-side apps — no account, no backend. They form a small kit: *
 | **Skill Lint** | Green / yellow / red `SKILL.md` report card with fix hints | **[skill-lint.vercel.app](https://skill-lint.vercel.app)** | [skill-lint](https://github.com/smfworks/skill-lint) |
 | **Skill Card** | Paste a `SKILL.md` → pretty shareable one-pager PNG | **[skill-card-theta.vercel.app](https://skill-card-theta.vercel.app)** | [skill-card](https://github.com/smfworks/skill-card) |
 | **Prompt Diff** | Paste two prompts → visual shareable diff | **[prompt-diff-eight.vercel.app](https://prompt-diff-eight.vercel.app)** | [prompt-diff](https://github.com/smfworks/prompt-diff) |
+| **Agent Contract** | Human↔agent agreement card: roles, success criteria, stop conditions | **[agent-contract.vercel.app](https://agent-contract.vercel.app)** | [agent-contract](https://github.com/smfworks/agent-contract) |
 | **Refuse Card** | `GO` / `HOLD` / `NO` stamp for a proposed agent action | **[refuse-card.vercel.app](https://refuse-card.vercel.app)** | [refuse-card](https://github.com/smfworks/refuse-card) |
 | **Tool Permit** | Declare allowed tools → shareable allowlist / `PERMIT` badge (GO-list twin of Refuse Card) | **[tool-permit.vercel.app](https://tool-permit.vercel.app)** | [tool-permit](https://github.com/smfworks/tool-permit) |
 | **Agent Receipt** | Turn any agent session into a dark shareable receipt card | **[agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app)** | [agent-receipt](https://github.com/smfworks/agent-receipt) |
 | **Redact Before Share** | Paste a transcript → scrub secrets/PII → clean export + removal receipt (pairs with Agent Receipt) | **[redact-before-share.vercel.app](https://redact-before-share.vercel.app)** | [redact-before-share](https://github.com/smfworks/redact-before-share) |
+| **Context Budget** | Paste a prompt or dump → shareable token-budget card (green / yellow / red + what to cut) | **[context-budget-eight.vercel.app](https://context-budget-eight.vercel.app)** | [context-budget](https://github.com/smfworks/context-budget) |
 
 ## Support the lab
 
 [![Support the lab — tips keep the open tools and demos going](docs/support-the-lab-banner.png)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
 
-If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Skill Card, Prompt Diff, Refuse Card, Tool Permit, Agent Receipt, and Redact Before Share, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Skill Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Redact Before Share, and Context Budget, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
 
 **[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
 
@@ -72,10 +74,12 @@ MIT, client-side. Try in the browser; clone only if you want the source.
 | [skill-lint](https://github.com/smfworks/skill-lint) | Green/yellow/red `SKILL.md` report with fix hints. Demo: [skill-lint.vercel.app](https://skill-lint.vercel.app) |
 | [skill-card](https://github.com/smfworks/skill-card) | Paste `SKILL.md` → pretty shareable one-pager PNG. Demo: [skill-card-theta.vercel.app](https://skill-card-theta.vercel.app) |
 | [prompt-diff](https://github.com/smfworks/prompt-diff) | Paste two prompts → visual shareable diff. Demo: [prompt-diff-eight.vercel.app](https://prompt-diff-eight.vercel.app) |
+| [agent-contract](https://github.com/smfworks/agent-contract) | Human↔agent agreement card: roles, success criteria, stop conditions. Demo: [agent-contract.vercel.app](https://agent-contract.vercel.app) |
 | [refuse-card](https://github.com/smfworks/refuse-card) | GO / HOLD / NO stamp for a proposed agent action. Demo: [refuse-card.vercel.app](https://refuse-card.vercel.app) |
 | [tool-permit](https://github.com/smfworks/tool-permit) | Declare allowed tools → shareable allowlist / PERMIT badge (GO-list twin of Refuse Card). Demo: [tool-permit.vercel.app](https://tool-permit.vercel.app) |
 | [agent-receipt](https://github.com/smfworks/agent-receipt) | Dark shareable receipt card of an agent session. Demo: [agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app) |
 | [redact-before-share](https://github.com/smfworks/redact-before-share) | Paste transcript → scrub secrets/PII → clean export + removal receipt (pairs with Agent Receipt). Demo: [redact-before-share.vercel.app](https://redact-before-share.vercel.app) |
+| [context-budget](https://github.com/smfworks/context-budget) | Paste a prompt or dump → shareable token-budget card (green/yellow/red + what to cut). Demo: [context-budget-eight.vercel.app](https://context-budget-eight.vercel.app) |
 
 ### Clone first
 
