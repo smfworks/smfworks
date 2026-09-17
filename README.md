@@ -8,7 +8,24 @@
 
 A map of what [SMF Works](https://github.com/smfworks) publishes on GitHub — what to use, what is experimental, what is only a fork mirror, and what is archived.
 
+<<<<<<< Updated upstream
 Surveyed **2026-09-16** against the public `smfworks` account (**76** public repositories). This file is an index, not a product pitch.
+=======
+Surveyed **2026-09-16** against the public `smfworks` account (**77** public repositories). This file is an index, not a product pitch.
+
+## SMF App Launcher
+
+A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin that lists SMF Works viral utility apps **cloned locally on your machine** and renders them inside the Hermes workspace — no browser tab, no GitHub API, no marketing sites. Only what's on your disk.
+
+| | |
+|---|---|
+| **What it does** | Sidebar nav ("SMF Apps" 🚀), grid of installed apps with search, one-click sandboxed iframe rendering |
+| **How it discovers apps** | Python backend scans `~/projects/` for cloned SMF viral app repos. Only the 9 utility apps are recognized — websites and infra repos are excluded |
+| **Repo** | [**smf-app-launcher**](https://github.com/smfworks/smf-app-launcher) |
+| **Install** | `git clone https://github.com/smfworks/smf-app-launcher.git ~/.hermes/plugins/smf-app-launcher` then `hermes plugins enable smf-app-launcher` |
+| **Activate** | Settings → Plugins → SMF Apps on, then ⌘K → Reload desktop plugins |
+| **License** | MIT |
+>>>>>>> Stashed changes
 
 ## Try these (viral apps)
 
