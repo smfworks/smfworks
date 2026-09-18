@@ -31,7 +31,7 @@ Then **quit Hermes Desktop and launch it again** from the menu. ⌘K → Reload 
 
 ## Try these (viral apps)
 
-Ten MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → present it as a card → diff the rewrite → write a contract → stamp a proposed action → declare allowed tools → print a receipt → scrub secrets → budget the context.**
+Eleven MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → present it as a card → diff the rewrite → write a contract → stamp a proposed action → declare allowed tools → print a receipt → scrub secrets → budget the context → print standing constraints.**
 
 Live demos below work in any browser. To run them **inside Hermes Desktop**, install the [launcher](#smf-app-launcher) and click a card — no manual clone.
 
@@ -47,12 +47,13 @@ Live demos below work in any browser. To run them **inside Hermes Desktop**, ins
 | **Agent Receipt** | Turn any agent session into a dark shareable receipt card | **[agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app)** | [agent-receipt](https://github.com/smfworks/agent-receipt) |
 | **Redact Before Share** | Paste a transcript → scrub secrets/PII → clean export + removal receipt (pairs with Agent Receipt) | **[redact-before-share.vercel.app](https://redact-before-share.vercel.app)** | [redact-before-share](https://github.com/smfworks/redact-before-share) |
 | **Context Budget** | Paste a prompt or dump → shareable token-budget card (green / yellow / red + what to cut) | **[context-budget-eight.vercel.app](https://context-budget-eight.vercel.app)** | [context-budget](https://github.com/smfworks/context-budget) |
+| **Constraint Card** | Paste must / must-not / stop rules → shareable agent constitution card | **[constraint-card.vercel.app](https://constraint-card.vercel.app)** | [constraint-card](https://github.com/smfworks/constraint-card) |
 
 ## Support the lab
 
 [![Support the lab — tips keep the open tools and demos going](docs/support-the-lab-banner.png)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
 
-If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Skill Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Redact Before Share, and Context Budget, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Skill Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Redact Before Share, Context Budget, and Constraint Card, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
 
 **[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
 
@@ -89,6 +90,7 @@ MIT, client-side. Try in the browser; clone only if you want the source.
 | [agent-receipt](https://github.com/smfworks/agent-receipt) | Dark shareable receipt card of an agent session. Demo: [agent-receipt-green.vercel.app](https://agent-receipt-green.vercel.app) |
 | [redact-before-share](https://github.com/smfworks/redact-before-share) | Paste transcript → scrub secrets/PII → clean export + removal receipt (pairs with Agent Receipt). Demo: [redact-before-share.vercel.app](https://redact-before-share.vercel.app) |
 | [context-budget](https://github.com/smfworks/context-budget) | Paste a prompt or dump → shareable token-budget card (green/yellow/red + what to cut). Demo: [context-budget-eight.vercel.app](https://context-budget-eight.vercel.app) |
+| [constraint-card](https://github.com/smfworks/constraint-card) | Paste must / must-not / stop rules → shareable agent constitution card. Demo: [constraint-card.vercel.app](https://constraint-card.vercel.app) |
 
 ### Clone first
 
