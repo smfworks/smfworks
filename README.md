@@ -20,16 +20,14 @@ A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin. It list
 | **What it does** | **Install & open** clones into `~/.hermes/smf-apps/<app>`, installs deps, runs that app’s Vite server on `127.0.0.1`, and iframes it. |
 | **What it is not** | Live Vercel demos, Next.js `*-site` repos, WisdomForge, Clearinghouse, smfworks.com. |
 | **Repo** | [smfworks/smf-app-launcher](https://github.com/smfworks/smf-app-launcher) · MIT |
-| **Install** | See the block below. Needs Node.js 20+ and git. First open of an app can take a minute. |
+| **Install** | `install.sh` in the launcher repo. Needs Node.js 20+ and git. First open of an app can take a minute. |
 
 ```bash
 git clone https://github.com/smfworks/smf-app-launcher.git ~/.hermes/plugins/smf-app-launcher
-mkdir -p ~/.hermes/desktop-plugins/smf-app-launcher
-cp ~/.hermes/plugins/smf-app-launcher/desktop/plugin.js ~/.hermes/desktop-plugins/smf-app-launcher/plugin.js
-hermes plugins enable smf-app-launcher
+bash ~/.hermes/plugins/smf-app-launcher/install.sh
 ```
 
-Then **quit and relaunch Hermes Desktop** (⌘K → Reload desktop plugins loads the UI only; it does not mount the Python backend). Settings → Plugins → SMF Apps → on. Click any kit card.
+Then **quit Hermes Desktop and launch it again** from the menu. ⌘K → Reload desktop plugins is JS only — **Backend not reachable** means the serve started before enable. Do not run `hermes desktop` if the packaged Electron binary is already the menu `Exec=`. Settings → Plugins → SMF Apps → on. Sidebar **SMF Apps**.
 
 ## Try these (viral apps)
 
