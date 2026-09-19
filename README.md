@@ -31,7 +31,7 @@ Then **quit Hermes Desktop and launch it again** from the menu. ⌘K → Reload 
 
 ## Try these (viral apps)
 
-Fourteen MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → present it as a card → print a persona card → diff the rewrite → write a contract → stamp a proposed action → declare allowed tools → print a receipt → tell the session as a timeline → pass a handoff slip → scrub secrets → budget the context → print standing constraints.**
+Fifteen MIT, client-side apps — no account, no backend. They form a small kit: **create a skill → lint it → grade a run → present it as a card → print a persona card → diff the rewrite → write a contract → stamp a proposed action → declare allowed tools → print a receipt → tell the session as a timeline → pass a handoff slip → scrub secrets → budget the context → print standing constraints.**
 
 Live demos below work in any browser. To run them **inside Hermes Desktop**, install the [launcher](#smf-app-launcher) and click a card — no manual clone.
 
@@ -39,6 +39,7 @@ Live demos below work in any browser. To run them **inside Hermes Desktop**, ins
 |---|---|---|---|
 | **Paste → Skill** | Paste an SOP or notes → Hermes/OpenClaw `SKILL.md` | **[paste-to-skill.vercel.app](https://paste-to-skill.vercel.app)** | [paste-to-skill](https://github.com/smfworks/paste-to-skill) |
 | **Skill Lint** | Green / yellow / red `SKILL.md` report card with fix hints | **[skill-lint.vercel.app](https://skill-lint.vercel.app)** | [skill-lint](https://github.com/smfworks/skill-lint) |
+| **Eval Scorecard** | Paste eval / judge output → green / yellow / red shareable grade card (Skill Lint’s twin for runs) | **[eval-scorecard.vercel.app](https://eval-scorecard.vercel.app)** | [eval-scorecard](https://github.com/smfworks/eval-scorecard) |
 | **Skill Card** | Paste a `SKILL.md` → pretty shareable one-pager PNG | **[skill-card-theta.vercel.app](https://skill-card-theta.vercel.app)** | [skill-card](https://github.com/smfworks/skill-card) |
 | **Persona Card** | Paste a SOUL / system prompt → shareable agent persona one-pager (Skill Card’s twin) | **[persona-card-teal.vercel.app](https://persona-card-teal.vercel.app)** | [persona-card](https://github.com/smfworks/persona-card) |
 | **Prompt Diff** | Paste two prompts → visual shareable diff | **[prompt-diff-eight.vercel.app](https://prompt-diff-eight.vercel.app)** | [prompt-diff](https://github.com/smfworks/prompt-diff) |
@@ -56,7 +57,7 @@ Live demos below work in any browser. To run them **inside Hermes Desktop**, ins
 
 [![Support the lab — tips keep the open tools and demos going](docs/support-the-lab-banner.png)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
 
-If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
 
 **[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
 
@@ -85,6 +86,7 @@ MIT, client-side. Try in the browser; clone only if you want the source.
 |---|---|
 | [paste-to-skill](https://github.com/smfworks/paste-to-skill) | Paste SOP/notes → Hermes/OpenClaw `SKILL.md`. Demo: [paste-to-skill.vercel.app](https://paste-to-skill.vercel.app) |
 | [skill-lint](https://github.com/smfworks/skill-lint) | Green/yellow/red `SKILL.md` report with fix hints. Demo: [skill-lint.vercel.app](https://skill-lint.vercel.app) |
+| [eval-scorecard](https://github.com/smfworks/eval-scorecard) | Paste eval / judge output → green / yellow / red shareable grade card. Demo: [eval-scorecard.vercel.app](https://eval-scorecard.vercel.app) |
 | [skill-card](https://github.com/smfworks/skill-card) | Paste `SKILL.md` → pretty shareable one-pager PNG. Demo: [skill-card-theta.vercel.app](https://skill-card-theta.vercel.app) |
 | [persona-card](https://github.com/smfworks/persona-card) | Paste a SOUL / system prompt → shareable agent persona one-pager. Demo: [persona-card-teal.vercel.app](https://persona-card-teal.vercel.app) |
 | [prompt-diff](https://github.com/smfworks/prompt-diff) | Paste two prompts → visual shareable diff. Demo: [prompt-diff-eight.vercel.app](https://prompt-diff-eight.vercel.app) |
