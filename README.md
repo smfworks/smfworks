@@ -53,11 +53,29 @@ Live demos below work in any browser. To run them **inside Hermes Desktop**, ins
 | **Context Budget** | Paste a prompt or dump → shareable token-budget card (green / yellow / red + what to cut) | **[context-budget-eight.vercel.app](https://context-budget-eight.vercel.app)** | [context-budget](https://github.com/smfworks/context-budget) |
 | **Constraint Card** | Paste must / must-not / stop rules → shareable agent constitution card | **[constraint-card.vercel.app](https://constraint-card.vercel.app)** | [constraint-card](https://github.com/smfworks/constraint-card) |
 
+## Omarchy Plugins
+
+MIT Quattro shell plugins for [Omarchy](https://github.com/omacom/omarchy) — bar widgets and fullscreen overlays. Install with `omarchy plugin add <repo-url> --enable`. Upstream desktop is Omarchy’s; these are SMF add-ons.
+
+| Plugin | id | What it does | Repo |
+|---|---|---|---|
+| **Neural Pulse** | `smf.neural-pulse` | Hermes/agent activity as a glowing waveform + session strip on the bar | [omarchy-neural-pulse](https://github.com/smfworks/omarchy-neural-pulse) |
+| **Cron Constellation** | `smf.cron-constellation` | Overnight Hermes cron as a starfield (ok / fail / cost sizing) | [omarchy-cron-constellation](https://github.com/smfworks/omarchy-cron-constellation) |
+| **Orbit Dock** | `smf.orbit-dock` | Fullscreen radial HUD launcher for apps, themes, and agents | [omarchy-orbit-dock](https://github.com/smfworks/omarchy-orbit-dock) |
+| **Ghost Trace** | `smf.ghost-trace` | Soft neon afterimages of recent workspaces — click a ghost to jump back | [omarchy-ghost-trace](https://github.com/smfworks/omarchy-ghost-trace) |
+| **Spectra Theme Reactor** | `smf.spectra-reactor` | Audio-reactive neon spectrum strip (LIVE / DEMO honesty chips) | [omarchy-spectra-reactor](https://github.com/smfworks/omarchy-spectra-reactor) |
+| **Aegis Gate** | `smf.aegis-gate` | Fullscreen GO / HOLD / NO approval shield HUD (Refuse Card’s desktop cousin) | [omarchy-aegis-gate](https://github.com/smfworks/omarchy-aegis-gate) |
+| **Deep Scan Lock** | `smf.deep-scan-lock` | Cinematic lock/idle scan HUD companion to real `omarchy.lock` (no fake auth) | [omarchy-deep-scan-lock](https://github.com/smfworks/omarchy-deep-scan-lock) |
+| **Fleet Lattice** | `smf.fleet-lattice` | Multi-machine node-graph hologram (DEMO peers labeled; probes opt-in) | [omarchy-fleet-lattice](https://github.com/smfworks/omarchy-fleet-lattice) |
+| **Hermes (bar)** | `smf.hermes` | Optional Hermes status / launch widget on the Omarchy bar | [smf-hermes](https://github.com/smfworks/smf-hermes) |
+
+Also useful nearby: [hermes-omarchy](https://github.com/smfworks/hermes-omarchy) (boot integration) and [smf-cron-night](https://github.com/smfworks/smf-cron-night) (Hermes Desktop overnight cron pane — not an Omarchy plugin).
+
 ## Support the lab
 
 [![Support the lab — tips keep the open tools and demos going](docs/support-the-lab-banner.png)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
 
-If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the clone-first repos and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the Omarchy plugin pack above, the clone-first repos, and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
 
 **[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
 
