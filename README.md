@@ -22,7 +22,7 @@ SMF Works is a small human–AI lab (Pittsboro, NC) that publishes tools, write-
   </a>
 </p>
 
-If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the Omarchy plugin pack and Omarchy Applications above, the clone-first repos, and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the Omarchy plugin pack and Omarchy Applications below, the clone-first repos, and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
 
 **[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
 
