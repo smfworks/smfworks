@@ -10,6 +10,23 @@ A map of what [SMF Works](https://github.com/smfworks) publishes on GitHub — w
 
 Surveyed **2026-09-16** against the public `smfworks` account (**77** public repositories). This file is an index, not a product pitch.
 
+## What SMF Works is
+
+SMF Works is a small human–AI lab (Pittsboro, NC) that publishes tools, write-ups, and experiments around **local and hybrid agents** — especially [Hermes Agent](https://github.com/NousResearch/hermes-agent), [OpenClaw](https://github.com/openclaw/openclaw), and Linux/[Omarchy](https://github.com/omacom/omarchy) setups. The brand site is [smfworks.com](https://smfworks.com). Practitioner notes live on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). **This account does not own Omarchy, Hermes Agent, or OpenClaw.** Those projects belong to their upstream authors; our copies of them are mirrors only.
+
+## Support the lab
+
+<p align="center">
+  <a href="https://donate.stripe.com/14A6oGbHv3hHekY2ODew801">
+    <img src="docs/support-the-lab-banner.png" alt="Support the lab — tips keep the open tools and demos going" width="640" />
+  </a>
+</p>
+
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the Omarchy plugin pack and Omarchy Applications above, the clone-first repos, and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+
+**[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
+
+
 ## SMF App Launcher
 
 A [Hermes Desktop](https://github.com/NousResearch/hermes-agent) plugin. It lists the viral kit below and opens each app **locally** in the workspace. One click clones, `npm install`s, and starts Vite on `127.0.0.1`. Not a Vercel gallery. Not company websites.
@@ -85,17 +102,6 @@ cd omarchy-overwatch && ./scripts/install.sh
 omarchy-overwatch
 ```
 
-## Support the lab
-
-[![Support the lab — tips keep the open tools and demos going](docs/support-the-lab-banner.png)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
-
-If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the Omarchy plugin pack and Omarchy Applications above, the clone-first repos, and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
-
-**[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
-
-## What SMF Works is
-
-SMF Works is a small human–AI lab (Pittsboro, NC) that publishes tools, write-ups, and experiments around **local and hybrid agents** — especially [Hermes Agent](https://github.com/NousResearch/hermes-agent), [OpenClaw](https://github.com/openclaw/openclaw), and Linux/[Omarchy](https://github.com/omacom/omarchy) setups. The brand site is [smfworks.com](https://smfworks.com). Practitioner notes live on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). **This account does not own Omarchy, Hermes Agent, or OpenClaw.** Those projects belong to their upstream authors; our copies of them are mirrors only.
 
 ## Start here
 
