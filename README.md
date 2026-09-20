@@ -71,11 +71,25 @@ MIT Quattro shell plugins for [Omarchy](https://github.com/omacom/omarchy) — b
 
 Also useful nearby: [hermes-omarchy](https://github.com/smfworks/hermes-omarchy) (boot integration) and [smf-cron-night](https://github.com/smfworks/smf-cron-night) (Hermes Desktop overnight cron pane — not an Omarchy plugin).
 
+## Omarchy Applications
+
+Full desktop apps built for [Omarchy](https://omarchy.org/) (or any Arch/Linux box) — not Quattro shell plugins. Install with the repo’s `scripts/install.sh`, then launch from the app menu or CLI.
+
+| App | What it does | Repo | Launch |
+|---|---|---|---|
+| **Omarchy Overwatch** | Dark OSINT workbench: interactive globe, dockable panels, 100+ curated public tools across search / social / network / threat / geo / maritime / news / more. Catalog + launcher — not a scanner; LIVE/STALE/ERR honesty on feeds | [omarchy-overwatch](https://github.com/smfworks/omarchy-overwatch) | `omarchy-overwatch` · http://127.0.0.1:4173 |
+
+```bash
+git clone https://github.com/smfworks/omarchy-overwatch.git
+cd omarchy-overwatch && ./scripts/install.sh
+omarchy-overwatch
+```
+
 ## Support the lab
 
 [![Support the lab — tips keep the open tools and demos going](docs/support-the-lab-banner.png)](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)
 
-If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the Omarchy plugin pack above, the clone-first repos, and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
+If a demo or note from this map was useful, a voluntary tip helps keep the lab’s MIT-licensed open tools, viral demos, and public write-ups going. That includes Paste → Skill, Skill Lint, Eval Scorecard, Skill Card, Persona Card, Prompt Diff, Agent Contract, Refuse Card, Tool Permit, Agent Receipt, Session Timeline, Handoff Slip, Redact Before Share, Context Budget, and Constraint Card, plus the Omarchy plugin pack and Omarchy Applications above, the clone-first repos, and essays on [The Clearinghouse Log](https://www.smfclearinghouse.com/blog/). This is a tip jar, not a product purchase, and it is not Agent Setup — no account, no obligation.
 
 **[Support SMF Works →](https://donate.stripe.com/14A6oGbHv3hHekY2ODew801)**
 
