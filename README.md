@@ -86,7 +86,7 @@ MIT Quattro shell plugins for [Omarchy](https://github.com/omacom/omarchy) — b
 | **Fleet Lattice** | `smf.fleet-lattice` | Multi-machine node-graph hologram (DEMO peers labeled; probes opt-in) | [omarchy-fleet-lattice](https://github.com/smfworks/omarchy-fleet-lattice) |
 | **Hermes (bar)** | `smf.hermes` | Optional Hermes status / launch widget on the Omarchy bar | [smf-hermes](https://github.com/smfworks/smf-hermes) |
 
-Also useful nearby: [hermes-omarchy](https://github.com/smfworks/hermes-omarchy) (boot integration) and [smf-cron-night](https://github.com/smfworks/smf-cron-night) (Hermes Desktop overnight cron pane — not an Omarchy plugin).
+Also useful nearby: [hermes-omarchy](https://github.com/smfworks/hermes-omarchy) (boot integration), [smf-cron-night](https://github.com/smfworks/smf-cron-night) (Hermes Desktop overnight cron pane), [smf-omarchy-news](https://github.com/smfworks/smf-omarchy-news) (Omarchy news column), and [smf-overwatch-pane](https://github.com/smfworks/smf-overwatch-pane) (Hermes Desktop Overwatch status pane — LIVE/STALE/ERR/OFF layers + open HUD) — Hermes panes, not Omarchy Quattro plugins.
 
 ## Omarchy Applications
 
@@ -94,7 +94,7 @@ Full desktop apps built for [Omarchy](https://omarchy.org/) (or any Arch/Linux b
 
 | App | What it does | Repo | Launch |
 |---|---|---|---|
-| **Omarchy Overwatch** | Dark OSINT workbench: interactive globe, dockable panels, 100+ curated public tools across search / social / network / threat / geo / maritime / news / more. Catalog + launcher — not a scanner; LIVE/STALE/ERR honesty on feeds | [omarchy-overwatch](https://github.com/smfworks/omarchy-overwatch) | `omarchy-overwatch` · http://127.0.0.1:4173 |
+| **Omarchy Overwatch** | Dark OSINT workbench **v2**: interactive globe, dockable panels, 190+ curated public tools, live layers (USGS/EONET/ADS-B/NWS/AIS/FIRMS), local case notes. Catalog + launcher — not a scanner; LIVE/STALE/ERR/OFF honesty | [omarchy-overwatch](https://github.com/smfworks/omarchy-overwatch) | `omarchy-overwatch` · http://127.0.0.1:4173 |
 
 ```bash
 git clone https://github.com/smfworks/omarchy-overwatch.git
