@@ -94,7 +94,7 @@ Full desktop apps built for [Omarchy](https://omarchy.org/) (or any Arch/Linux b
 
 | App | What it does | Repo | Launch |
 |---|---|---|---|
-| **Omarchy Overwatch** | Dark OSINT workbench **v2**: interactive globe, dockable panels, 190+ curated public tools, live layers (USGS/EONET/ADS-B/NWS/AIS/FIRMS), local case notes. Catalog + launcher — not a scanner; LIVE/STALE/ERR/OFF honesty | [omarchy-overwatch](https://github.com/smfworks/omarchy-overwatch) | `omarchy-overwatch` · http://127.0.0.1:4173 |
+| **Overwatch OSINT for Omarchy** | Dark OSINT workbench: interactive globe + MapLibre locality/storm maps, dockable panels, 190+ curated public tools, live layers, custom RSS, in-depth center stage, local case notes. Catalog + launcher — not a scanner; LIVE/STALE/ERR/OFF honesty | [omarchy-overwatch](https://github.com/smfworks/omarchy-overwatch) | `omarchy-overwatch` · http://127.0.0.1:4173 |
 
 ```bash
 git clone https://github.com/smfworks/omarchy-overwatch.git
